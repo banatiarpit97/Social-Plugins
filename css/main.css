@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background: url("https://static.pexels.com/photos/66997/pexels-photo-66997.jpeg") no-repeat center center;
+    background: url("https://static.pexels.com/photos/66997/pexels-photo-66997.jpeg") center center;
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
@@ -37,6 +37,9 @@ body{
   .timeline{
     width: 80%;
     margin: auto;
+  }
+  .timeline .fb{
+    margin-bottom: 50px;
   }
 }
 @media(min-width:340px) and (max-width:770px) {
